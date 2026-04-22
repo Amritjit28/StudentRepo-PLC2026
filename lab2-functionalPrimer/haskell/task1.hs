@@ -1,11 +1,10 @@
 module Main where
 
-main =
-    do
+main = do           
     print (myFunc1 5)
-    --print (MyFunc2 10)
-    --print (3rdFunc)
+    print (myFunc2 10)
+    print myFunc3
 
-myFunc1 x = x*10
---MyFunc2 x = x*2
---3rdFunc = "Hello, this is 3rd Func"
+myFunc1 x = x * 10
+myFunc2 x = x * 2
+myFunc3 = "Hello, this is 3rd Func"
